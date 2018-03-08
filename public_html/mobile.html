@@ -1,0 +1,90 @@
+<!doctype html>
+
+<!--
+Anthony Roberts Personal Website MOBILE VERSION
+-->
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    	<link rel="stylesheet" type="text/css" href="mobilestyle.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>Tony Roberts</title>
+</head>
+<body>
+<div id = "intro" class = "section">
+		<div id = "intro-video" >
+			<video class="video" autoplay="autoplay" loop="loop" muted="">
+				<source src="videos/coding.webm" type="video/webm" />
+			</video>
+	 	</div>
+	   <div id = "intro-content">
+		<h1 id = "intro-heading">Anthony Roberts</h1><h1 id = "intro-sub">3rd Year Computer Science Student</h1>
+		<button id = "intro-button">About Me</button>
+		<div id = "intro-iconswrapper">
+			<a href="https://www.linkedin.com/in/anthony-roberts-a63753139/" class="fa fa-linkedin fa-2x" target="_blank"></a>
+			<a href="https://github.com/tonydroberts1243" class="fa fa-git fa-2x" target="_blank"></a>
+		</div>
+	 </div>
+</div>
+<div id = "content" class = "section">
+    <img class="img-circle" src = "/images/temporary.JPG" style=width:25vh></img>
+   	<div id = display-about>
+		<h1>About Me</h1>
+				
+		<p id = "about-description">I'm a computer science student studying at Carleton University in Ottawa. I have a passion for coding and creating!<p>
+		<a id = display-resume href="Resume.pdf" target="_blank">Resume</a>
+	</div>
+</div>
+<div id = "projects" class = "section" style=height:115vh>
+    				<h2>Projects</h2>
+				<p style=padding:5vw><b>Data Structures Quiz:</b> An Android application featuring a quiz game focused on helping students learn data structures<br><a href="https://play.google.com/store/apps/details?id=com.tonydroberts.datastructuresyou" target="_blank">Playstore</a> <a href="https://github.com/tonydroberts1243/Data-Structures-Quiz---Android-Application" target="_blank">Github</a><br>
+				<br><b>TipCalc:</b> A simple Android application to help with calculating the tip for services! I made this when I was first getting my feet wet in Android development<br><a href="https://play.google.com/store/apps/details?id=com.tonydroberts.tipcalc" target="_blank">Playstore</a> <a href="https://github.com/tonydroberts1243/TipCalc" target="_blank">Github</a><br>
+				<br><b>Memory Matching Game:</b> A Nodejs application featuring a memory matching game, hosted on Heroku<br><a href="https://tonyroberts-memory-game.herokuapp.com/" target="_blank">Heroku</a> <a href="https://github.com/tonydroberts1243/Memory-Matching-Game" target="_blank">Github</a><br>
+				<br><b>Socket Chatroom:</b> A Nodejs chatroom application utilizing Socket.io, hosted on Heroku<br><a href="https://tonyroberts-chatroom.herokuapp.com/" target="_blank">Heroku</a> <a href="https://github.com/tonydroberts1243/socket.io-Chatroom" target="_blank">Github</a><br>
+				<br><b>More of my projects can be found on my </b> <a href="https://github.com/tonydroberts1243" target="_blank">Github</a>
+				</p>
+</div>
+<div id = "contact" class = "section" style=height:auto>
+    				<h2>Contact Info</h2>
+				<ul id = contact-list style=padding:0>
+					<li>
+						<a href = "mailto:anthonydroberts@cmail.carleton.ca">anthonydroberts@cmail.carleton.ca</a>
+					</li>
+					<li>
+						<a href="https://github.com/tonydroberts1243" target="_blank">Github</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/anthony-roberts-a63753139/" target="_blank">LinkedIn</a>
+					</li>
+				</ul>
+				<h2 style=padding-bottom:2vh>Anthony Roberts</h2>
+</div>
+<div id = "other" class = "section">
+    			    <h2 id = "other-title">Other Stuff</h2>
+			    <div id = "mining-stats">
+			        <h1 id = mining-header>My Mining Stats</h1>
+    			   	<ul id = mining-list>
+    					<li>
+    						<a href="https://www.coinmarketcap.com" target="_blank" id = "eth_price">ETH is x USD currently!</a>
+    					</li>
+    					<li>
+    						<a href="https://eth.nanopool.org/account/0x6c391687309d961e804379c7ae8fb2257855427a" target="_blank" id = "eth_current_hashrate">I'm currently mining ETH at x MH/s!</a>
+    					</li>
+    					<li>
+    						<a href="https://eth.nanopool.org/account/0x6c391687309d961e804379c7ae8fb2257855427a" target="_blank" id = "eth_balance">My current ETH balance is x!</a>
+    					</li>
+    					<li>
+    						<a href="https://eth.nanopool.org/account/0x6c391687309d961e804379c7ae8fb2257855427a" target="_blank" id = "eth_12h_hashrate">My average hashrate in the past 12 hours was x MH/s!</a>
+    					</li>
+    				</ul>
+				</div>
+</div>
+
+</body>
+<script src="scripts.js"></script>
+</html>

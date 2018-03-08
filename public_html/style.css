@@ -1,0 +1,338 @@
+/*
+Anthony Roberts
+*/
+
+html,
+body,
+video {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  
+}
+
+#intro{
+    position: relative;
+    display: flex;
+    align-items:center;
+    min-width: 100%;
+    min-height: 100%;
+    line-height:0.5;
+}
+
+#intro-content{
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#intro-heading {
+  color: white;
+  font-size: 44px;
+}
+
+#intro-sub{
+  color: white;
+  font-size: 30px;
+  margin-bottom:24px;
+}
+
+#intro-button {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+  background-color: Transparent;
+  border-radius: 10px;
+  
+  -webkit-transition: color 0.5s, border-color 0.5s;
+  -moz-transition:    color 0.5s, border-color 0.5s;
+  -ms-transition:     color 0.5s, border-color 0.5s;
+  -o-transition:      color 0.5s, border-color 0.5s;
+  transition:         color 0.5s, border-color 0.5s;
+  
+
+}
+
+
+#intro-button:hover{
+  color: white;
+  background-color:#ff3c64;
+}
+
+
+.fa {
+  display: inline-block;
+  margin: 12px;
+  padding: 10px 30px;
+  border-radius:100px;
+  text-decoration:none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-linkedin{
+    background: #0077b5;
+    color: white;
+}
+
+
+.fa-git{
+    background: black;
+    color: white;
+}
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url("https://s3.amazonaws.com/course_report_staging/close_up_code.jpg")
+}
+
+#content{
+  position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background-color: #1d2026;
+}
+
+#sidebar{
+    position:relative;
+    float: left;
+    min-width: 10%;
+    height: 100vh;
+    background-color: #272727;
+    text-align: center;
+}
+
+
+#sidebar-header{
+  margin: 0;
+  padding: 30px 48px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+
+    
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
+}
+
+#sidebar-header:hover{
+    color:#ff3c64;
+}
+
+
+
+.sidebtn{
+  display: list-item;
+  margin: 0;
+  padding: 30px 48px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #272727;
+
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  -moz-transition:    color 0.5s, background-color 0.5s;
+  -ms-transition:     color 0.5s, background-color 0.5s;
+  -o-transition:      color 0.5s, background-color 0.5s;
+  transition:         color 0.5s, background-color 0.5s;
+}
+
+.sidebtn:hover{
+background-color: white;
+color: #ff3c64;
+}
+
+#content-display{
+    position:relative;
+    display:table;
+    left: 10vw;
+    top: 5vw;
+    width: 800px;
+    height: 600px;
+    background-color: #1d2026;
+}
+
+#display-profile{
+    position: absolute;
+    right: 0px;
+    width: 465px;
+    padding: 10px;
+}
+
+#display-about{
+  position:absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  color:white;
+  text-align:center;
+
+  
+}
+
+#display-projects{
+  position:absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  display:none;
+  color:white;
+  text-align:center;
+
+}
+
+#display-projects a {
+  display: inline-block;
+  margin: 0;
+  padding: 6px 10px;
+  color: #ff3c64;
+  font-size: 14px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+  background-color: Transparent;
+  border-radius: 10px;
+  
+  -webkit-transition: color 1s, border-color 1s;
+  -moz-transition:    color 1s, border-color 1s;
+  -ms-transition:     color 1s, border-color 1s;
+  -o-transition:      color 1s, border-color 1s;
+  transition:         color 1s, border-color 1s;
+  
+}
+
+#display-projects a:hover {
+  color: white;
+  background-color:#ff3c64;
+}
+
+#display-courses{
+  position:absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  display:none;
+  color:white;
+  text-align:center;
+}
+
+#display-contact{
+  position:absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  display:none;
+  color:white;
+  text-align:center;
+
+}
+
+#display-other{
+  position:absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  display:none;
+  color:white;
+  text-align:center;
+
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#display-resume{
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+  background-color: Transparent;
+  border-radius: 10px;
+  
+  -webkit-transition: color 1s, border-color 1s;
+  -moz-transition:    color 1s, border-color 1s;
+  -ms-transition:     color 1s, border-color 1s;
+  -o-transition:      color 1s, border-color 1s;
+  transition:         color 1s, border-color 1s;
+}
+
+#display-resume:hover{
+  color: white;
+  background-color:#ff3c64;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#contact-list{
+  list-style-type:none;
+  margin-right:6%;
+}
+#contact-list a {
+text-decoration: none;
+  display: inline-block;
+  padding-bottom:10px;
+  text-decoration:none;
+  color:white;
+}
+
+#contact-list a:hover{
+  color:#ff3c64;
+}
+
+#mining-stats{
+  display: inline-block;
+  margin: 0;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#mining-header{
+    padding: 0px;
+    margin: 0;
+}
+
+#mining-list{
+  list-style-type:none;
+  margin-right:6%;
+}
+#mining-list a {
+text-decoration: none;
+  display: inline-block;
+  padding-bottom:10px;
+  text-decoration:none;
+  color:white;
+}
+
