@@ -44,9 +44,22 @@
     z-index: 2;
 }
 
+.landerButton {
+    color:white;
+}
+
+.landerButton:hover {
+    color:#ffe23c;
+}
+
 #about-button {
     color:white;
     background-color: #ff3c64;
+    border:0;
+}
+
+#about-button:hover {
+    background-color:#ff0033;
 }
 
 .about {
@@ -92,6 +105,7 @@
 .experience {
     padding-top:50px;
     padding-bottom:50px;
+    background-color: white;
 }
 
 .experienceLogo {
