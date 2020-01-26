@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Connect 4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<h1>CONNECT 4 GAME --- ADROBERTS</h1>
+	<a id = "ghLink" href = "https://github.com/anthonydroberts/C4AI" target="_blank">Github</a>
+	<br><br>
+	<form>
+		Select type of C4 to play:
+		<select id="SelectGameType">
+			<option value="0">Classic</option>
+			<option value="1">Alternative (Removing)</option>
+		</select>
+	</form>
+	<br>
+	<form>
+		Select play type:
+		<select id="SelectPlayType">
+			<option value="1">Human vs AI</option>
+			<option value="2">AI (dumb) vs AI</option>
+			<option value="0">Human vs Human</option>
+		</select>
+	</form>
+	<br>
+	<form>
+		Select AI difficulty:
+		<select id="SelectDepth">
+			<option value="6">Medium (6 Depth) (R)</option>
+			<option value="8">Hard (8 Depth) (Slow)</option>
+			<option value="4">Trivial (4 Depth)</option>
+		</select>
+	</form>
+	<br>
+	<button id="initGame">Start</button>
+	<br>
+	<p id= "currentGame"></p>
+	<p id= "newAIMoveString" style="visibility:hidden">Placeholder</p>
+	<br>
+    <table id="board" style="visibility:hidden">
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+	<p id= "statistics"></p>
+	<p id= "endString" style="visibility:hidden">Placeholder</p>
+
+</body>
+<script src="c4Game.js"></script>
+</html>

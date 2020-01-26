@@ -2,6 +2,7 @@
 
 .landing {
     background-color: #1d2026;
+    background-image: linear-gradient(to right, #1d2026 , #55202b);
     height: 100vh;
     width: 100%;
     min-height: 400px;
@@ -13,6 +14,32 @@
     justify-content: space-around;
     display: flex;
     float: none;
+}
+
+#hamburger {
+    color: white; 
+    font-size:28px;
+}
+
+#hamburger:hover {
+    color:#ff3c64;
+}
+
+a {
+    color:black;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#ff3c64;
+}
+
+a:active {
+    text-decoration: underline;
 }
 
 .navbarWrapper {
@@ -64,6 +91,7 @@
 
 .about {
     background-color:#1d2026;
+    background-image: linear-gradient(to right, #1d2026 , #55202b);
     color: white;
     min-height: 750px;
     width: 100%;
@@ -127,7 +155,7 @@
 }
 
 .gap100 {
-    padding: 70px 0px;
+    padding: 20px 0px;
 }
 
 .projectsWrapper {
@@ -149,6 +177,7 @@
     backface-visibility: hidden;
     margin: 6px;
     border-radius: 20px;
+    align-self: center;
 }
 
 .grid-img:hover {
@@ -160,7 +189,8 @@
 	width: 100vw;
 	max-width:100%;
 	display:inline-block;
-	background-color: #1d2026;
+    background-color: #1d2026;
+    background-image: linear-gradient(to right, #1d2026 , #55202b);
 	text-align:center;
 }
 
@@ -199,6 +229,7 @@
     top: 0;
     left: 0;
     background-color: #1d2026;
+    background-image: linear-gradient(to right, #1d2026 , #55202b);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -211,3 +242,9 @@
     z-index: 1031;
     color: #ff3c64;
 }
+
+@media screen and (max-width: 800px) {
+    .aboutWrapper {
+        width: 90vw;
+    }
+  }

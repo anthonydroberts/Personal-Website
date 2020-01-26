@@ -1,13 +1,17 @@
+/*
+
 setTimeout(function() {
     console.log('loaded');
     $(".loader-wrapper").fadeOut("slow");
  },"300");
+ 
+ */
 
-/*
+
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
  });
-*/
+
 
 particlesJS.load('particles-js', '../content/particles.json', function() {
     console.log('callback - particles.js config loaded');

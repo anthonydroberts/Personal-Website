@@ -23,7 +23,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbarWrapper">
         <a class="navbar-brand" href="#landing-page">Tony Roberts</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+            <i class="fas fa-bars" id = "hamburger"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -40,7 +40,7 @@
               <a class="nav-link" href="#contact-page">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="/content/resume.pdf" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
@@ -54,8 +54,8 @@
             <h3>Software Developer</h3>
             <a class="btn btn-primary my-2" id="about-button">About Me</a>
             <div>
-                <i class="fab fa-github btn btn-dark landerButton" href="#" role="button"></i>
-                <i class="fab fa-linkedin btn btn-dark landerButton" href="#" role="button"></i>
+                <a href="https://github.com/anthonydroberts" target="_blank"><i class="fab fa-github btn btn-dark landerButton" role="button"></i></a>
+                <a href="https://www.linkedin.com/in/tonydroberts/" target="_blank"><i class="fab fa-linkedin btn btn-dark landerButton" role="button"></i></a>
             </div>
         </div>
     </header>
@@ -72,7 +72,7 @@
                 We are what we repeatedly do. Excellence, then, is not an act, but a habit.
                 </p>
             </div>
-            <a class="btn btn-dark" id="about-resume" href="adroberts.pdf" target="_blank"><i class="fas fa-scroll"></i> Resume</a><br>
+            <a class="btn btn-dark" id="about-resume" href="/content/resume.pdf" target="_blank"><i class="fas fa-scroll"></i> Resume</a><br>
             <i class="fas fa-chevron-down fa-fw" href="#" role="button" id = "about-down"></i>
         </div>
     </div>
@@ -86,11 +86,22 @@
                     <div class="col-md-6">
                         
                         
-                        <h2 class="border-bottom"><i class="fas fa-laptop-code"></i>You.i TV</h2>
+                        <a href="https://www.youi.tv/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-laptop-code"></i>You.i TV</h2></a>
                         <h5>May 2019 - Present</h5>
                             <p>
-                                lorem ipsum
+                                Currently working under Product division in Build Solutions & Performance Tooling teams.
                             </p>
+                            <ul>
+                                <li>
+                                    Product infrastructure & tooling development - <b>Typescript / JS & Ruby</b>
+                                </li> 
+                                <li>
+                                    Automated environment building and provisioning, CI/CD pipeline development - <b>Vagrant & Packer & Jenkins</b>
+                                </li>
+                                <li>
+                                    Test suite development, integration + unit tests - <b>Typescript / JS & Jest</b>
+                                </li>
+                            </ul>
                     </div>
                     <div class="col-md-6">
                         <img src = "/content/images/youilogo.png" class="img-fluid experienceLogo" alt="laptop">
@@ -103,14 +114,22 @@
             <div class="container text-center">
                 <div class="row gap100">
                     <div class="col-md-6">
-                        <h2 class="border-bottom"><i class="fas fa-laptop-code"></i>Irdeto</h2>
+                        <a href="https://irdeto.com/cloakware-by-irdeto/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-laptop-code"></i>Irdeto</h2></a>
                         <h5>May 2018 - August 2018</h5>
                             <p>
-                                lorem ipsum
+                                Summer COOP Term, worked under the Cloakware Software Protection product in the Transcoder team.
                             </p>
+                            <ul>
+                                <li>
+                                    Focused on improving usability of product which involved streamlining the setup process for customers and internal developers - <b>Perl</b>
+                                </li> 
+                                <li>
+                                    Improved configuration / customization settings and logging capabilities for transcoding - <b>Python</b>
+                                </li>
+                            </ul>
                     </div>
                     <div class="col-md-6">
-                        <img src = "/content/images/irdetojpeg.jpg" class="img-fluid experienceLogo" alt="laptop">
+                        <img src = "/content/images/irdetologo.png" class="img-fluid experienceLogo" alt="laptop">
                     </div>
                 </div>
             </div>
@@ -120,10 +139,10 @@
             <div class="container text-center">
                 <div class="row gap100">
                     <div class="col-md-6">
-                        <h2 class="border-bottom"><i class="fas fa-user-graduate"></i>Carleton University</h2>
-                            <h5>September 2015 - April 2019</h5>
+                        <a href="https://carleton.ca/scs/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-user-graduate"></i>Carleton University</h2></a>
+                            <h5>September 2015 - May 2019</h5>
                             <p>
-                                lorem ipsum
+                                B.C.S. Computer Science Major, Psychology Minor at Carleton University located in Ottawa, Ontario
                             </p>
                     </div>
                     <div class="col-md-6">
@@ -141,13 +160,11 @@
             <h1 class="pb-3">Projects</h1>
             <div class="d-flex flex-wrap justify-content-center">
                 <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
+                <img class = "grid-img" src = "/content/images/cuACS.png" onclick="window.open('content/side/cuACS/index.html')">
+                <img class = "grid-img" src = "/content/images/reversi.png" onclick="window.open('content/side/reversi/index.html')">
+                <img class = "grid-img" src = "/content/images/minesweeper.png" onclick="window.open('https://minesweeper-adroberts.herokuapp.com/')">
+                <img class = "grid-img" src = "/content/images/dsq.png" onclick="window.open('https://play.google.com/store/apps/details?id=com.tonydroberts.datastructuresyou')">
+                <img class = "grid-img" src = "/content/images/connect4.png" onclick="window.open('content/side/c4ai/index.html')">
             </div>
           </div>
     </div>
