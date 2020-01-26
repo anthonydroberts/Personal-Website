@@ -1,0 +1,199 @@
+.fa { font-family: 'FontAwesome' !important; }
+
+.landing {
+    background-color: #1d2026;
+    height: 100vh;
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+
+.navbarWrapper {
+    background-color: rgba(43, 43, 43, 0.5);
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link:hover {
+    color:#ff3c64;
+}
+
+.navbar-brand {
+    color: #ff3c64;
+}
+
+.navbar-brand:hover {
+    color:white;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
+.introWrapper {
+    background-color: white;
+    z-index: 2;
+}
+
+#about-button {
+    color:white;
+    background-color: #ff3c64;
+}
+
+.about {
+    background-color:#1d2026;
+    color: white;
+    min-height: 750px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+
+.aboutWrapper {
+    width: 50vw;
+}
+
+#about-resume {
+    color: #ff3c64;
+}
+
+#about-image {
+    width: 200px;
+}
+
+#about-down {
+    font-size: 50px;
+    display: contents;
+}
+
+#about-down:hover {
+    font-size: 50px;
+    display: contents;
+    color: #ff3c64;
+    cursor: pointer;
+}
+
+.experience {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.experienceLogo {
+    height: 150px;
+    width: auto;
+    max-width: 250px;
+}
+
+#experience-down {
+    font-size: 50px;
+    display: contents;
+}
+
+#experience-down:hover {
+    font-size: 50px;
+    display: contents;
+    color: #ff3c64;
+    cursor: pointer;
+}
+
+.gap100 {
+    padding: 70px 0px;
+}
+
+.projectsWrapper {
+    background-color: #1d2026;
+    color:white;
+}
+
+#projects-grid {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.grid-img {
+	opacity: 1;
+	display: block;
+	width: 365px;
+	height: auto;
+	transition: .5s ease;
+    backface-visibility: hidden;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+.grid-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#contact-page{
+	width: 100vw;
+	max-width:100%;
+	display:inline-block;
+	background-color: #1d2026;
+	text-align:center;
+}
+
+#contact-heading{
+	color: white;
+}
+
+#contact-list{
+	list-style-type:none;
+	padding:0;
+}
+#contact-list a {
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom:10px;
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+}
+
+#contact-list a:hover{
+	color:#ff3c64;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+  }
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d2026;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1031;
+}
+
+.loader {
+    width: 12rem;
+    height: 12rem;
+    z-index: 1031;
+    color: #ff3c64;
+}
