@@ -28,13 +28,7 @@ $(document).ready(function () {
     
     $("#about-down").click(function() {
 		$('html,body').animate({
-			scrollTop: $("#experience-page").offset().top},
-		'slow');
-    });
-    
-    $("#experience-down").click(function() {
-		$('html,body').animate({
 			scrollTop: $("#projects-page").offset().top},
 		'slow');
-	});
+    });
 });

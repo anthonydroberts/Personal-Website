@@ -1,8 +1,7 @@
 .fa { font-family: 'FontAwesome' !important; }
 
 .landing {
-    background-color: #1d2026;
-    background-image: linear-gradient(to right, #1d2026 , #55202b);
+    background-color: #1a1919;
     height: 100vh;
     width: 100%;
     min-height: 400px;
@@ -22,7 +21,7 @@
 }
 
 #hamburger:hover {
-    color:#ff3c64;
+    color:#649c66;
 }
 
 a {
@@ -35,7 +34,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    color:#ff3c64;
+    color:#649c66;
 }
 
 a:active {
@@ -51,11 +50,11 @@ a:active {
 }
 
 .nav-link:hover {
-    color:#ff3c64;
+    color:#649c66;
 }
 
 .navbar-brand {
-    color: #ff3c64;
+    color: #649c66;
 }
 
 .navbar-brand:hover {
@@ -81,17 +80,16 @@ a:active {
 
 #about-button {
     color:white;
-    background-color: #ff3c64;
+    background-color: #649c66;
     border:0;
 }
 
 #about-button:hover {
-    background-color:#ff0033;
+    background-color:#4b9c4e;
 }
 
 .about {
-    background-color:#1d2026;
-    background-image: linear-gradient(to right, #1d2026 , #55202b);
+    background-color:#1a1919;
     color: white;
     min-height: 750px;
     width: 100%;
@@ -111,7 +109,7 @@ a:active {
 }
 
 #about-resume {
-    color: #ff3c64;
+    color: #649c66;
 }
 
 #about-image {
@@ -126,7 +124,7 @@ a:active {
 #about-down:hover {
     font-size: 50px;
     display: contents;
-    color: #ff3c64;
+    color: #649c66;
     cursor: pointer;
 }
 
@@ -150,7 +148,7 @@ a:active {
 #experience-down:hover {
     font-size: 50px;
     display: contents;
-    color: #ff3c64;
+    color: #649c66;
     cursor: pointer;
 }
 
@@ -159,13 +157,80 @@ a:active {
 }
 
 .projectsWrapper {
-    background-color: #1d2026;
+    background-color: #1a1919;
     color:white;
+}
+
+.project-center-left-align {
+    max-width: 700px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+}
+
+.project-entry-wrapper {
+    max-width: 700px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #projects-grid {
     padding-top:50px;
     padding-bottom:50px;
+}
+
+#project-title {
+    color:#649c66;
+}
+
+#project-title-link {
+    color:#649c66;
+    text-decoration: none;
+}
+
+#project-title-link:hover {
+    cursor: pointer;
+    color: #4b9c4e;
+}
+
+#project-tags{
+    display: flex;
+}
+
+#project-tag{
+    border-radius: 3px;
+    border-color: #111010;
+    background-color: #111010;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+#project-content {
+    text-align: left;
+}
+
+#project-play-link {
+    text-decoration: none;
+    color:#649c66;
+    cursor: pointer;
+}
+
+#project-play-link:hover {
+    text-decoration: none;
+    color:#4b9c4e;
+    cursor: pointer;
 }
 
 .grid-img {
@@ -186,22 +251,31 @@ a:active {
 }
 
 #contact-page{
-	width: 100vw;
-	max-width:100%;
-	display:inline-block;
-    background-color: #1d2026;
-    background-image: linear-gradient(to right, #1d2026 , #55202b);
-	text-align:center;
+	max-width: 100%;
+    background-color: #1a1919;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
+#contact-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
 #contact-heading{
 	color: white;
 }
 
 #contact-list{
-	list-style-type:none;
+    display: flex;
+	list-style-type: none;
 	padding:0;
 }
+
 #contact-list a {
 	text-decoration: none;
 	display: inline-block;
@@ -209,10 +283,12 @@ a:active {
 	text-decoration:none;
 	color:white;
 	font-size:25px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #contact-list a:hover{
-	color:#ff3c64;
+	color:#ffe23c;
 }
 
 #particles-js {
@@ -228,8 +304,7 @@ a:active {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #1d2026;
-    background-image: linear-gradient(to right, #1d2026 , #55202b);
+    background-color: #1a1919;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +315,7 @@ a:active {
     width: 12rem;
     height: 12rem;
     z-index: 1031;
-    color: #ff3c64;
+    color: #649c66;
 }
 
 @media screen and (max-width: 800px) {

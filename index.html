@@ -33,13 +33,7 @@
               <a class="nav-link" href="#about-page">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#experience-page">Experience</a>
-              </li>
-            <li class="nav-item">
               <a class="nav-link" href="#projects-page">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-page">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/content/resume.pdf" target="_blank">Resume</a>
@@ -65,13 +59,11 @@
     <!-- About Me -->
     <div class="about" id="about-page">
         <div class = "aboutWrapper caption text-center p-3">
-            <img src="content/images/profile2.jpg" class="rounded-circle" id="about-image">
             <h1 id="about-heading">About Me</h1>
             <div id="about-summary">
                 <p id="about-text">
-                Recent Computer Science graduate from Carleton University. Through my work, education, hackathons, meetups, and projects, I have gained experience in both large and small team settings - and a love for tech. I am passionate about learning and trying new things, and I'm always working on something new!
+                Hey! I'm a Software Developer working on the You.i platform at Warner Media, helping to deliver the absolute best streaming content to millions of users. Through my work, education, hackathons, meetups, and projects, I have gained experience in both large and small team settings - and a love for tech. I am passionate about learning and trying new things, and I'm always working on something new!
                 <br><br>
-                We are what we repeatedly do. Excellence, then, is not an act, but a habit.
                 </p>
             </div>
             <a class="btn btn-dark" id="about-resume" href="/content/resume.pdf" target="_blank"><i class="fas fa-scroll"></i> Resume</a><br>
@@ -79,118 +71,104 @@
         </div>
     </div>
 
-    <!-- Experience -->
-    <div class="experience text-center" id="experience-page">
-        <h1>Experience</h1>
-        <section>
-            <div class="container text-center">
-                <div class="row gap100">
-                    <div class="col-md-6">
-                        
-                        
-                        <a href="https://www.youi.tv/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-laptop-code"></i>You.i TV</h2></a>
-                        <h5>May 2019 - Present</h5>
-                            <p>
-                                Currently working under Product division in Build Solutions & Performance Tooling teams.
-                            </p>
-                            <ul>
-                                <li>
-                                    Product infrastructure & tooling development - <b>Typescript / JS & Ruby</b>
-                                </li> 
-                                <li>
-                                    Automated environment building and provisioning, CI/CD pipeline development - <b>Vagrant & Packer & Jenkins</b>
-                                </li>
-                                <li>
-                                    Test suite development, integration + unit tests - <b>Typescript / JS & Jest</b>
-                                </li>
-                            </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img src = "/content/images/youilogo.png" class="img-fluid experienceLogo" alt="laptop">
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-        <section>
-            <div class="container text-center">
-                <div class="row gap100">
-                    <div class="col-md-6">
-                        <a href="https://irdeto.com/cloakware-by-irdeto/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-laptop-code"></i>Irdeto</h2></a>
-                        <h5>May 2018 - August 2018</h5>
-                            <p>
-                                Summer COOP Term, worked under the Cloakware Software Protection product in the Transcoder team.
-                            </p>
-                            <ul>
-                                <li>
-                                    Focused on improving usability of product which involved streamlining the setup process for customers and internal developers - <b>Perl</b>
-                                </li> 
-                                <li>
-                                    Improved configuration / customization settings and logging capabilities for transcoding - <b>Python</b>
-                                </li>
-                            </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img src = "/content/images/irdetologo.png" class="img-fluid experienceLogo" alt="laptop">
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-        <section>
-            <div class="container text-center">
-                <div class="row gap100">
-                    <div class="col-md-6">
-                        <a href="https://carleton.ca/scs/" target="_blank" ><h2 class="border-bottom"><i class="fas fa-user-graduate"></i>Carleton University</h2></a>
-                            <h5>September 2015 - May 2019</h5>
-                            <p>
-                                B.C.S. Computer Science Major, Psychology Minor at Carleton University located in Ottawa, Ontario
-                            </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src = "/content/images/carletonlogo.png" class="img-fluid experienceLogo" alt="laptop">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <i class="fas fa-chevron-down fa-fw" href="#" role="button" id = "experience-down"></i>
-    </div>
-
     <!-- Projects -->
     <div class="projectsWrapper" id="projects-page">
         <div class="container text-center" id = "projects-grid">
-            <h1 class="pb-3">Projects</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <img class = "grid-img" src = "/content/images/browserbuddies.png" onclick="window.open('https://devpost.com/software/browser-buddies')">
-                <img class = "grid-img" src = "/content/images/cuACS.png" onclick="window.open('content/side/cuACS/index.html')">
-                <img class = "grid-img" src = "/content/images/reversi.png" onclick="window.open('content/side/reversi/index.html')">
-                <img class = "grid-img" src = "/content/images/minesweeper.png" onclick="window.open('https://minesweeper-adroberts.herokuapp.com/')">
-                <img class = "grid-img" src = "/content/images/dsq.png" onclick="window.open('https://play.google.com/store/apps/details?id=com.tonydroberts.datastructuresyou')">
-                <img class = "grid-img" src = "/content/images/connect4.png" onclick="window.open('content/side/c4ai/index.html')">
+            <div class="projects-content-wrapper" >
+                <h1 class="pb-3">Projects</h1>
+
+                <div class="project-entry-wrapper">
+                    <div class="project-center-left-align">
+                        <h2 id = "project-title"><a id = "project-title-link" href = "https://github.com/anthonydroberts/ShopSplit" target="_blank">ShopSplit</a></h2>
+                        <div id = "project-tags">
+                            <p id = "project-tag">TypeScript</p>
+                            <p id = "project-tag">NodeJS</p>
+                            <p id = "project-tag">Express</p>
+                            <p id = "project-tag">React Native</p>
+                            <p id = "project-tag">iOS</p>
+                            <p id = "project-tag">Android</p>
+                            <p id = "project-tag">Firebase</p>
+                            <p id = "project-tag">Socket.IO</p>
+                        </div>
+                        <p id = "project-content">A socket based synchronized shopping app built in React with an Express backend. ShopSplit enables users to shop efficiently together by creating shared, live shopping lists that support item-user assignment and real time progress tracking.</p>
+                    </div>
+                </div>
+
+                <div class="project-entry-wrapper">
+                    <div class="project-center-left-align">
+                        <h2 id = "project-title"><a id = "project-title-link" href = "https://github.com/anthonydroberts/moonwalker/" target="_blank">Moonwalker</a></h2>
+                        <div id = "project-tags">
+                            <p id = "project-tag">JavaScript</p>
+                            <p id = "project-tag">NodeJS</p>
+                            <p id = "project-tag">Web-Scraping</p>
+                            <p id = "project-tag">Data</p>
+                            <p id = "project-tag">Reddit</p>
+                            <p id = "project-tag">🚀</p>
+                        </div>
+                        <p id = "project-content">Moonwalker is a set of NodeJS scripts that use the Reddit API to scrape the most recent post data from a few popular trading / investing subreddits, and then analyze + generate a report detailing the top stocks based on metrics like content sentiment and karma.</p>
+                    </div>
+                </div>
+
+                <div class="project-entry-wrapper">
+                    <div class="project-center-left-align">
+                        <h2 id = "project-title"><a id = "project-title-link" href = "https://github.com/anthonydroberts/BrowserBuddies/tree/develop" target="_blank">Browser Buddies</a></h2>
+                        <div id = "project-tags">
+                            <p id = "project-tag">JavaScript</p>
+                            <p id = "project-tag">NodeJS</p>
+                            <p id = "project-tag">Express</p>
+                            <p id = "project-tag">Firebase</p>
+                            <p id = "project-tag">ReactJS</p>
+                            <p id = "project-tag">Hackathon</p>
+                        </div>
+                        <p id = "project-content">Created at the cuHacking 2019 hackathon, Browser Buddies is a ReactJS chrome extension with an express backend. Browser Buddies allows a group of collaborators to easily share chrome tabs with eachother, as well as save them for future reference.</p>
+                    </div>
+                </div>
+
+                <div class="project-entry-wrapper">
+                    <div class="project-center-left-align">
+                        <h2 id = "project-title"><a id = "project-title-link" href = "https://github.com/anthonydroberts/reversi-ai" target="_blank">Reversi</a></h2>
+                        <div id = "project-tags">
+                            <p id = "project-tag">JavaScript</p>
+                            <p id = "project-tag">Game</p>
+                            <p id = "project-tag">AI</p>
+                            <p id = "project-tag">Minimax</p>
+                            <p id = "project-tag">AB Pruning</p>
+                        </div>
+                        <p id = "project-content">A quick and dirty JavaScript implementation of the game Reversi (Othello). Features a playable algorithm (Minimax with alpha-beta pruning) that can be set to different difficulties (node depth) and play-strategies. You can also pit the computer against itself!</p>
+                        <a id = "project-play-link" href = "http://adroberts.me/content/side/reversi/index.html" target="_blank">Play it here!</a>
+                    </div>
+                </div>
+
+                <div class="project-entry-wrapper">
+                    <div class="project-center-left-align">
+                        <h2 id = "project-title"><a id = "project-title-link" href = "https://github.com/anthonydroberts/minesweeper-react-django" target="_blank">Minesweeper</a></h2>
+                        <div id = "project-tags">
+                            <p id = "project-tag">JavaScript</p>
+                            <p id = "project-tag">Python</p>
+                            <p id = "project-tag">ReactJS</p>
+                            <p id = "project-tag">Django</p>
+                            <p id = "project-tag">PostgreSQL</p>
+                            <p id = "project-tag">Game</p>
+                        </div>
+                        <p id = "project-content">The classic Minesweeper game built with a ReactJS frontend and a Django backend. This implementation features saved game states which can be paused and resumed later with the game ID, as well as a client-server setup to prevent cheating.</p>
+                        <a id = "project-play-link" href = "https://minesweeper-adroberts.herokuapp.com/" target="_blank">Play it here!</a>
+                    </div>
+                </div>
+
             </div>
           </div>
     </div>
 
     <!-- Contact -->
     <div class="contact" id="contact-page">
-        <div class = "caption text-center p-3">
-            <h1 id = "contact-heading">Contact</h1>
-            <ul id = contact-list>
-                <li>
-                    <a href = "mailto:info@adroberts.me"><i class="fas fa-envelope"></i> info@adroberts.me</a>
-                </li>
-                <li>
-                    <a href="https://github.com/anthonydroberts" target="_blank"><i class="fab fa-github-square"></i> Github</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/anthony-roberts-a63753139/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-                </li>
-            </ul>
+        <div class = "caption text-center p-3" id="contact-wrapper">
+            <div id = contact-list>
+                    <a href = "mailto:info@adroberts.me" id = "contact-list-link"><i class="fas fa-envelope"></i> info@adroberts.me</a>
+                    <a href = "https://github.com/anthonydroberts" target="_blank" id = "contact-list-link"><i class="fab fa-github-square"></i></a>
+                    <a href = "https://www.linkedin.com/in/anthony-roberts-a63753139/" target="_blank" id = "contact-list-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </div>
     </div>
-
-
-
 </body>
 
 <!-- Scripts -->
